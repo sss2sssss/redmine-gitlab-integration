@@ -2,7 +2,7 @@ require File.expand_path('../../test_helper', __FILE__)
 require 'net/http'
 
 class GitLabRepositoriesControllerTest < ActionController::TestCase
-  include FactoryGirl::Syntax::Methods
+  include FactoryBot::Syntax::Methods
   fixtures :projects, :users, :roles
 
   def setup

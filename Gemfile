@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gem 'gitlab'
-gem 'factory_girl_rails'
+gem 'factory_bot_rails'
 gem 'byebug'

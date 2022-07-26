@@ -3,7 +3,7 @@ require 'net/http'
 
 # These tests should check plugin work inside project pages
 class ProjectWithRepositoriesTest < ActionDispatch::IntegrationTest
-  include FactoryGirl::Syntax::Methods
+  include FactoryBot::Syntax::Methods
   fixtures :projects, :users, :roles
 
   # Log in as admin and delete repositories in gitlab if exist

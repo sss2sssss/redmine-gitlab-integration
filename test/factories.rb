@@ -1,5 +1,5 @@
 include GitlabInt::GitlabMethods
-FactoryGirl.define do
+FactoryBot.define do
   trait :created_on_and_updated_on_now do
     created_on { Time.now }
     updated_on { Time.now }
